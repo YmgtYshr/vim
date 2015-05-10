@@ -93,8 +93,8 @@ cnoremap <C-a>  <C-b>
 cnoremap <C-e>  <C-e>
 cnoremap <C-u> <C-e><C-u>
 cnoremap <C-v> <C-f>a
-
-
+set textwidth=0
+autocmd FileType text setlocal textwidth=0
 
 
 
